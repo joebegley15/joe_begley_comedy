@@ -1,0 +1,103 @@
+// https://picular.co/bluemoon
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,700');
+
+#navbar {
+  width: 100%;
+  position: absolute;
+  a {
+    --fill-color: white;
+    position: relative;
+    display: block;
+    font: 700 2.5rem Raleway, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px var(--fill-color);
+    background: linear-gradient(var(--fill-color) 0 100%) left / 0 no-repeat;
+    color: transparent;
+    background-clip: text;
+    transition: 0.5s linear;
+
+    &:hover {
+      background-size: 100%;
+    }
+  }
+}
+
+#navbar-mobile {
+  display: none;
+}
+
+#navbar-desktop {
+  display: flex;
+  width: 100%;
+  padding-top: 8px;
+
+  .left {
+    padding-left: 16px;
+    a {
+      font: 700 2.5rem Raleway, sans-serif;
+    }
+  }
+
+  .right {
+    margin-left: auto;
+    display: flex;
+    align-items: flex-end;
+    padding-right: 16px;
+    a {
+      font: 700 2rem Raleway, sans-serif;
+      margin-left: 16px;
+    }
+  }
+}
+
+#navbar-mobile {
+  .top {
+    display: flex;
+    padding-top: 8px;
+    margin-left: 12px;
+    margin-right: 12px;
+    .left {
+      a {
+        font: 700 2rem Raleway, sans-serif;
+        &.open {
+          border-bottom: 2px solid white;
+        }
+      }
+    }
+    .right {
+      margin-left: auto;
+      display: flex;
+      align-items: flex-end;
+      .hamburger-react {
+        color: white;
+        transition: all 2s cubic-bezier(0, 0, 0, 1) 0s !important;
+      }
+    }
+  }
+  .dropdown {
+    padding-left: 12px;
+    a {
+      font: 700 1.75rem Raleway, sans-serif;
+      width: fit-content;
+      padding-top: 1px;
+    }
+    &.open {
+      display: block;
+      background: rgb(0, 0, 0, 0.5);
+    }
+    &.closed {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  #navbar-desktop {
+    display: none;
+  }
+  #navbar-mobile {
+    display: block;
+  }
+}
