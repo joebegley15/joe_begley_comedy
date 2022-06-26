@@ -1,0 +1,18 @@
+.fixed-center {
+    width: 100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    @media (max-width: 1280px) {
+        .fixed-center-inner {
+            width: 100%;
+            padding-left: 24px;
+            padding-right: 24px
+        }
+    }
+    @media (min-width: 1280px) {
+        .fixed-center-inner {
+            width: 1200px;
+        }
+    }
+}
