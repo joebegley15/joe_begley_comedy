@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { get } from "axios";
-
-import "./Podcast.scss";
 import YouTube from "react-youtube";
 import FixedCenter from "../../components/FixedCenter";
+
+import Itunes from "../../static/itunes.png";
+import Spotify from "../../static/spotify.png";
+
+import "./Podcast.scss";
 
 const getOptions = () => {
   const { innerWidth } = window;
@@ -47,6 +50,16 @@ const Podcast = () => {
     <div id="podcast" className="background">
       <div className="top-padding">
         <FixedCenter>
+          <h1>AUDIO</h1>
+          <div className="flex logos">
+            <a href="https://podcasts.apple.com/us/podcast/creature-of-habit/id1525469384" target="_blank">
+              <img src={Itunes}></img>
+            </a>
+            <a href="https://open.spotify.com/show/1WMBLZU2QO3Vfg2OLAJnmt?si=jTNG0hExTo-csxNyRP-vTA" target="_blank">
+              <img src={Spotify}></img>
+            </a>
+          </div>
+          <h1>VIDEO</h1>
           <div>
             {videos.map(video => {
               const videoId = video.snippet.resourceId.videoId;
