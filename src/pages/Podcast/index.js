@@ -6,7 +6,7 @@ import "./Podcast.scss";
 const Podcast = () => {
   useEffect(() => {
     const channelId = "UUTyUgPNVujdkn4HVCRwFuiw";
-    const APIKey = "xxx";
+    const APIKey = process.env.REACT_APP_YOUTUBE_API_KEY;
     const url = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=${channelId}&maxResults=5&key=${APIKey}`;
     get(url).then(res => {
       console.log(res);
