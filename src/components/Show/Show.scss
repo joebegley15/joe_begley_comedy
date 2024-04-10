@@ -1,4 +1,5 @@
 .Show {
+
     * {
         color: white;
     }
@@ -27,6 +28,7 @@
             }
         }
     }
+    
     .right {
         width: 20%;
         
@@ -35,6 +37,29 @@
             padding: 6px;
             font-weight: bold;
             font-style: none;
+            text-decoration: none;
+        }
+    }
+
+    @media (max-width: 600px) {
+
+        border-bottom: 1px solid white;
+        padding-bottom: 28px;
+
+        .inner {
+            display: block;
+
+            > div {
+                width: 100%;
+            }
+
+            .center {
+                margin-top: 12px;
+            }
+
+            .right {
+                margin-top: 28px;
+            }
         }
     }
 }
