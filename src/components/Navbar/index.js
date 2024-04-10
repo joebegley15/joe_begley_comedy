@@ -22,7 +22,7 @@ const Navbar = () => {
       <div id="navbar-mobile">
         <div className="top">
           <div className="left">
-            <Link to="#" className={`${mobileOpen ? ' open' : ' closed'}`}>
+            <Link to="/" className={`${mobileOpen ? ' open' : ' closed'}`}>
               joe begley
             </Link>
           </div>
