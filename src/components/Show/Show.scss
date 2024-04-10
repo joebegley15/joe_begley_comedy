@@ -1,0 +1,40 @@
+.Show {
+    * {
+        color: white;
+    }
+    .inner {
+        padding-top: 32px;
+        display: flex;
+    }
+    .left {
+        width: 20%;
+        display: block;
+        font-weight: bold;
+        
+        .left-bottom {
+            padding-top: 6px;
+        }
+    }
+    .center {
+        width: 60%;
+        display: block;
+        
+        .center-bottom {
+            padding-top: 6px;
+
+            span.ireland {
+                color: green;
+            }
+        }
+    }
+    .right {
+        width: 20%;
+        
+        a {
+            border: 1px solid white;
+            padding: 6px;
+            font-weight: bold;
+            font-style: none;
+        }
+    }
+}

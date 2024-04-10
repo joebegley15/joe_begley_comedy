@@ -10,14 +10,13 @@ const Navbar = () => {
     <div id="navbar">
       <div id="navbar-desktop">
         <div className="left">
-          <Link to="#">joe begley</Link>
+          <Link to="/">joe begley</Link>
         </div>
         <div className="right">
-          <Link to="/">home</Link>
-          <a href="#">shows</a>
-          <a href="#">contact</a>
+          <a href="/shows">shows</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSe7qc131OjflHLorLBeXMMc7lx8G7EhZSZUwEzc-gFgTz4hUQ/viewform">contact</a>
           <a href="/podcast">podcast</a>
-          <a href="#">videos</a>
+          <a href="https://www.youtube.com/@thejoebegs/videos">videos</a>
         </div>
       </div>
       <div id="navbar-mobile">

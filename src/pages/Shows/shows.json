@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Straight Fire - A Begley & Friends Show",
+        "price": "20",
+        "venue": "Vulcan Gas Company",
+        "location": "Austin, TX",
+        "link": "https://tickets.vulcanpresents.com/e/vulcan-stand-up-12-72/tickets",
+        "date": "APR 12 FRI",
+        "time": "8PM"
+    },
+    {
+        "name": "Kill Box - A Begley & Friends Show",
+        "price": "20",
+        "venue": "East Austin Comedy Club",
+        "location": "Austin, TX",
+        "date": "APR 20 SAT",
+        "time": "10PM"
+    },
+    {
+        "name": "ICC Showcase featuring Joe Begley",
+        "price": "15",
+        "venue": "International Comedy Club",
+        "location": "Dublin, Ireland",
+        "date": "MAY 11 FRI",
+        "time": "9PM"
+    },
+    {
+        "name": "ICC Showcase featuring Joe Begley",
+        "price": "15",
+        "venue": "International Comedy Club",
+        "location": "Dublin, Ireland",
+        "date": "MAY 12 SAT",
+        "time": "8 & 10PM"
+    }
+]
