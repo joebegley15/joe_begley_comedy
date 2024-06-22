@@ -1,27 +1,20 @@
 [
-    {
-        "name": "Kill Box - Live at East Austin",
-        "price": "15 / 20",
-        "venue": "East Austin Comedy Club",
-        "location": "Austin, TX",
-        "link": "https://posh.vip/e/kill-box-at-east-austin-comedy-club",
-        "date": "APR 20 SAT",
-        "time": "10PM"
-    },
-    {
-        "name": "ICC Showcase featuring Joe Begley",
-        "price": "15",
-        "venue": "International Comedy Club",
-        "location": "Dublin, Ireland",
-        "date": "MAY 11 FRI",
-        "time": "9PM"
-    },
-    {
-        "name": "ICC Showcase featuring Joe Begley",
-        "price": "15",
-        "venue": "International Comedy Club",
-        "location": "Dublin, Ireland",
-        "date": "MAY 12 SAT",
-        "time": "8 & 10PM"
-    }
+	{
+		"name": "Joe Headlines The Velv",
+		"price": "20",
+		"venue": "The Velveeta Room",
+		"location": "Austin, TX",
+		"link": "https://the-velveeta-room-the-velveeta-room.seatengine.com/events/92028",
+		"date": "JUN 28 FRI",
+		"time": "8 & 10PM"
+	},
+	{
+		"name": "Haha Hidalgo",
+		"price": "25 - 35",
+		"venue": "Hidalgo",
+		"location": "Austin, TX",
+		"date": "JUN 29 SAT",
+		"time": "7PM",
+		"link": "https://posh.vip/e/haha-hidalgo-8-heatwave"
+	}
 ]
