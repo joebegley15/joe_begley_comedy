@@ -1,20 +1,19 @@
 [
 	{
-		"name": "Joe Headlines The Velv",
-		"price": "20",
-		"venue": "The Velveeta Room",
+		"name": "Don't Tell Georgetown",
+		"price": "25",
+		"venue": "Palace Theater",
 		"location": "Austin, TX",
 		"link": "https://the-velveeta-room-the-velveeta-room.seatengine.com/events/92028",
 		"date": "JUN 28 FRI",
-		"time": "8 & 10PM"
+		"time": "8PM"
 	},
 	{
-		"name": "Haha Hidalgo",
-		"price": "25 - 35",
-		"venue": "Hidalgo",
-		"location": "Austin, TX",
-		"date": "JUN 29 SAT",
-		"time": "7PM",
-		"link": "https://posh.vip/e/haha-hidalgo-8-heatwave"
+		"name": "Last Best",
+		"price": "25",
+		"venue": "Last Best",
+		"location": "Bozeman, MT",
+		"date": "MAR 14 FRI",
+		"time": "8 & 10PM"
 	}
 ]
