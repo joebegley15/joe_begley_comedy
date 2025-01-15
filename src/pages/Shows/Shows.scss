@@ -1,5 +1,36 @@
 #shows {
-    background-color: black;
-    width: 100%;
-    min-height: 100vh;
+	background-color: black;
+	width: 100%;
+	min-height: 100vh;
+
+	.email-list-container {
+		text-align: center;
+		margin-top: 48px;
+	}
+
+	.email-list-text {
+		font-size: 18px;
+		color: white; /* Adjust based on your theme */
+		margin-bottom: 10px;
+	}
+
+	.button-container {
+		display: flex;
+		justify-content: center;
+	}
+
+	.form-button {
+		background-color: #007bff; /* Adjust to your theme color */
+		color: #fff;
+		padding: 10px 20px;
+		border-radius: 5px;
+		text-decoration: none;
+		font-size: 16px;
+		font-weight: bold;
+		transition: background-color 0.3s ease;
+
+		&:hover {
+			background-color: #0056b3; /* Darker shade for hover */
+		}
+	}
 }
